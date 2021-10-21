@@ -3,7 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"", "cmus.sh", 1, 0},
 	{"", "netinfo.sh", 4, 0},
-	{"Power: ", "battery.sh", 10, 0},
+	{"Power: ", "upower -i `upower -e | grep 'BAT'` | grep percentage | awk '{print $2}'", 10, 0},
 	{"Vol: ", "pavolume.sh", 2, 0},
 	{"", "printf \"{$(date +\"%H:%M:%S, %A, %Y-%m-%d\")}\"", 1, 0},
 };
