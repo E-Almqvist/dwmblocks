@@ -2,6 +2,8 @@
 # blocks.h
 scripts/
 scripts
+.rej
+.orig
 
 # Prerequisites
 *.d
