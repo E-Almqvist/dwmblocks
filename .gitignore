@@ -1,6 +1,7 @@
 # Custom blocks file
 # blocks.h
 scripts/
+scripts
 
 # Prerequisites
 *.d
