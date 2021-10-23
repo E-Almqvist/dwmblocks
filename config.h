@@ -3,8 +3,8 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"", "/opt/scripts/cmus.sh", 1, 3}, 
-	{"", "/opt/scripts/netinfo.sh", 1, 2}, // TODO: signals
-	{"vol: ", "/opt/scripts/pavolume.sh", 0, 1}, // TODO: make this work
+	{"", "/opt/scripts/netinfo.sh", 1, 2}, 
+	{"vol: ", "/opt/scripts/pavolume.sh", 5, 1}, 
 	{"", "printf \"{$(date +\"%H:%M:%S, %A, %Y-%m-%d\")}\"", 1, 0},
 };
 
