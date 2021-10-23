@@ -4,7 +4,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"", "/opt/scripts/cmus.sh", 1, 3}, 
 	{"", "/opt/scripts/netinfo.sh", 1, 2}, 
-	{"vol: ", "/opt/scripts/pavolume.sh", 5, 1}, 
+	{"vol: ", "/opt/scripts/pavolume.sh", 1, 1}, 
 	{"", "printf \"{$(date +\"%H:%M:%S, %A, %Y-%m-%d\")}\"", 1, 0},
 };
 
